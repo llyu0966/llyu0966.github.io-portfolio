@@ -1,595 +1,39 @@
 <!DOCTYPE html>
  <head>
-        <title>Liyu(Jade) Lin</title>
-	  	<meta charset="UTF-8">
+    <title>Liyu(Jade) Lin</title>
+	  <meta charset="UTF-8">
 		<meta name="description" content="Personal Website">
 		<meta name="keywords" content="liyu lin" />
 		<meta name="author" content="liyu lin" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0;">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-<style>
-                
-/* Style the background */
-html {
-  font-size: 100%;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-}
-
-body {
-  margin: 0;
-  font-size: 20px;
-  font-family: 'Karla', sans-serif, Helvetica;
-  line-height: 20px;
-  color: #333333;
-  background-color: #ffffff;
-  -webkit-font-smoothing: antialiased;
-}
-
-a {
-  text-decoration: none;
-  color: #333;
-}
-
-a img {
-  border: none;
-}
-
-.inner {
-  max-width: 1024px;
-  margin: 0 auto;
-}
-
-.right {
-  float: right;
-}
-
-#header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  font-family: 'Montserrat', sans-serif;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  text-align: center;
-  width: 100%;
-  background-color: #fafafa;
-  line-height: 100px;
-  font-size: 20px;
-  z-index: 1000;
-}
-
-.mobile-nav {
-  display: none;
-}
-
-.name {z-index: 88888;}
-
-#illustration {
-  background-color: #efc4d7;
-/*  background-color: light pink */
-/*  background-color: #464C57; light gray blue*/
-  width: 100%;
-  line-height: 100%;
-  text-align: right;
-}
-
-
-#illustration img {
-  Padding-top: 135px;
-  Padding-bottom: 15px;
-  width: 70%;
-  min-width: 600px;
-}
-
-
-#illustration p {
-  font-family: "Courier New";
-  letter-spacing: 0.1em;
-  color: #fafafa;
-  padding-top: 60px;
-  font-weight: 100;
-  font-size: 15px;
-}
-
-#about a {
-  color: #3a92c8;
-  text-decoration: none;
-}
-
-#about a:hover {
-  text-decoration: underline;
-}
-
-#nav {
-  background-color: #fafafa;
-  height:60px;
-  font-family: 'Montserrat', sans-serif;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  text-align: center;
-}
-
-#about {
-/*  background-color: #D57878;*/
-/*  background-color: #34bcd2;*/
-  background-color: #add8e6;
-  height: 1100px;
-  margin-top:-30px;
-}
-
-#code {
-/*  margin-top:150px;*/
-  border-radius: 5px;
-  width:750px;
-  margin: 0 auto;
-  padding-top:15px;
-  font-size:15px;
-  background: #ccc;
-  height: 730px;
-  font-family: 'Monaco', 'Courier New';
-  text-align: left;
-  color: #fafafa;
-}
-
-#console {
-  width:670px;
-  padding: 40px;
-  height: 700px;
-  margin:0 auto;
-  background: #383737;
-}
-
-span.answer {
-  color:#ccc;
-}
-
-#about p {
-  text-align: center;
-  padding-top: 50px;
-  font-family: 'Open Sans', sans-serif;
-  letter-spacing: 0.3em;
-  font-weight: 700;
-  color: #fafafa;
-  font-size: 15px;
-  text-transform: uppercase;
-  -webkit-text-stroke-width: 0.5px;
-  -webkit-text-stroke-color: black;
-}
-
-.tagline {
-  text-align: center;
-  font-family: 'Open Sans', sans-serif;
-  letter-spacing: 0.3em;
-  font-weight: 700;
-  padding-bottom: 50px;
-  font-size: 20px;
-  text-transform: uppercase;
-}
-
-.section-tagline {
-  text-align: center;
-  font-family: 'Open Sans', sans-serif;
-  letter-spacing: 0.3em;
-  font-weight: 700;
-  padding-bottom: 20px;
-  margin-bottom: 40px;
-  border-bottom: 1px solid #CEC8C8;
-  font-size: 20px;
-  text-transform: uppercase;
-}
-
-.skill {
-  border: 1px solid #50a9d1;
-  margin-right: 10px;
-  text-transform: uppercase;
-  font-weight: 500;
-  width: auto;
-  display: inline-block;
-  font-size: 10px;
-  line-height: 1.33333em;
-  padding: 7px 18px;
-  margin-top: 0.8em;
-  -webkit-border-radius: 8px;
-  -moz-border-radius: 8px;
-  -ms-border-radius: 8px;
-  -o-border-radius: 8px;
-  border-radius: 8px;
-}
-
-.design {
-  border-color: #86BE91;
-}
-
-#resume {
-  background-color: #ddd;
-  height: auto;
-  margin-top: -30px;
-  padding-top: 60px;
-/*  //font-family: 'Karla';*/
-  font-size: 19px;
-  line-height: 34px;
-  -webkit-font-smoothing: antialiased;
-}
-
-#resume .inner {
-  width:700px;
-}
-
-img.icon {
-  width: 65px;
-  height: 65px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-  border-radius:50%;
-  float: left;
-  display: block;
-  margin-left: -95px;
-  margin-top: 5px;
-  background-color: #fff;
-  opacity: 0.8;
-  z-index: 0;
-  filter: grayscale(100%);
-  -webkit-filter: grayscale(100%);   /*For Webkit browsers */
-  filter: gray;  /* For IE 6 - 9 */
-  -webkit-transition: all .4s ease;
-}
-
-img.icon:hover {
-  filter: grayscale(0%);
-  -webkit-filter: grayscale(0%);
-  filter: none;
-}
-
-#work{
-  background: #f1f0eb;
-  height: auto;
-  margin-top: -30px;
-  text-align: center;
-  padding: 60px 0 60px 0;
-  font-size: 26px;
-  line-height: 40px;
-}
-
-.row {
-  clear: both;
-}
-
-.portfolio-thumb {
-  width: 45%;
-  margin: 20px;
-  background-color: white;
-  display: inline-block;
-  height: 530px;
-}
-
-.portfolio-thumb img {
-  height: 285px;
-  width: 100%;
-}
-
-.portfolio-thumb p {
-  font-size: 20px;
-  padding: 25px;
-  padding-top: 0px;
-  text-align: left;
-  line-height: 24px;
-}
-
-.portfolio-thumb a {
-  text-decoration: underline;
-}
-
-.portfolio-big {
-  width: 95%;
- /* height: 680px;*/
-}
-
-#footer{
-  background: #fafafa;
-  min-height: 50px;
-  text-align: left;
-  color: #b1b1b1;
-  padding-top: 20px;
-  font-size: 15px;
-  line-height: 20px;
-}
-
-
-.closed {
-  display: block;
-}
-
-.top-link {
-  display: block;
-  text-decoration: none;
-  position: fixed;
-  bottom: 0;
-  right: 2%;
-  padding: 8px 16px 0 16px;
-  height: 30px;
-  font-size: 14px;
-  -webkit-border-radius: 10px 10px 0 0;
-  -moz-border-radius: 10px 10px 0 0;
-  border-radius: 10px 10px 0 0;
-}
-
-@media screen and (max-width:860px) {
-  .portfolio-thumb {
-    width: 90%;
-  }
-}
-
-
-@media screen and (max-width:700px) {
-  #code, #console {
-    width: 100%;
-    overflow: hidden;
-  }
-
-  #illustration {
-    overflow: hidden;
-  }
-
-  #resume .inner {
-    width: 85%;
-  }
-
-  #resume .right {
-    display: none;
-  }
-
-}
-
-@media (max-width: 480px) {
-  
-  .toc-holder {
-    display: none;
-  }
-
-  .mobile-nav {
-    display: inline-block;
-    -webkit-padding-start: 5px;
-    -webkit-margin-before: 0;
-    float: right;
-  }
-
-  #header {
-    line-height: 40px;
-    padding-top: 20px;
-    text-align: left;
-    padding-left: 10px;
-    padding-bottom: 15px;
-  }
-
-  #header .name {
-    width:40%;
-    float: left;
-    font-size: 20px;
-    display: inline-block;
-  }
-
-  #header .nav {
-    display: inline-block;
-    float: left;
-    width: 55%;
-    padding-right: 10px;
-  }
-
-  
-}
-
-@media only screen and (min-device-width : 320px) and (max-device-width : 568px) { 
-/* STYLES GO HERE */
-  .toc-holder {
-    display: none;
-  }
-
-  .mobile-nav {
-    display: inline-block;
-    -webkit-padding-start: 5px;
-    -webkit-margin-before: 0;
-    float: right;
-  }
-
-  #header {
-    padding-top: 20px;
-    text-align: left;
-    padding-left: 10px;
-    padding-bottom: 15px;
-  }
-
-  #header .name {
-    width:40%;
-    float: left;
-    font-size: 20px;
-    padding-top: 2px;
-    display: inline-block;
-  }
-
-  #header .nav {
-    display: inline-block;
-/*    float: left;*/
-    width: 55%;
-        padding-right: 10px;
-    
-  }
-
-  #illustration {
-    padding-bottom: 0px;
-  }
-
-  #illustration img {
-    padding-top: 40px;
-  }
-
-  .tagline {
-    padding-bottom : 20px; 
-  }
-}
-
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-  .toc-holder {
-    display: none;
-  }
-
-  .mobile-nav {
-    display: block;
-    -webkit-padding-start: 5px;
-    -webkit-margin-before: 0;
-    float: right;
-  }
-
-  .tagline {
-    padding-bottom : 20px; 
-  }
-
-  #header {
-    line-height: 10px;
-    padding-top: 20px;
-    text-align: left;
-    padding-left: 10px;
-    padding-bottom: 10px;
-  }
-
-  #header .name {
-    width:40%;
-    padding-top: 2px;
-    float: left;
-    font-size: 20px;
-    display: inline-block;
-  }
-
-  #header .navbar {
-    display: block;
-/*    float: left;*/
-    width: 55%;
-        padding-right: 10px;
-  }
-
-  #about .inner {
-    padding: 0px 10px 0px 10px;
-  }
-  #code, #console {
-    height:auto;
-  }
-  #console {
-    padding: 20px;
-  }
-
-  #code {
-    margin-bottom: 20px;
-  }
-}
-
-/* Style the navigation bar */
-.navbar {
-  float: left;
-  top: 0;
-  left: 0;
-  font-family: 'Montserrat', sans-serif;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  margin: 0;
-  width: 100%;
-  background-color: #fafafa;
-  line-height: 25px;
-  Font-size: 20px;
-  padding-right: 10px;
-  overflow: hidden;
-  background-color: #333;
-}
-
-.navbar a {
-  float: left;
-  text-align: center;
-  padding-right: 10px;
-  font-size: 15px;
-  color: white;
-  text-align: center;
-  text-decoration: none;
-}
-
-.dropdown {
-  float: left;
-  background-color: inherit;
-  text-align: center;
-  overflow: hidden;
-}
-
-.dropdown .dropbtn {
-  font-size: 15px;  
-  border: none;
-  outline: none;
-  text-align: center;
-  color: white;
-  padding: 12px 16px;
-  background-color: #333;
-  font-family: inherit;
-  margin: 0;
-}
-
-.navbar a:hover, .dropdown:hover .dropbtn {
-  font-size: 10px;
-  background-color: #333;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: black;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  float: none;
-  color: white;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-.dropdown-content a:hover {
-  background-color: #333;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-
-  </style>
-	  	
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" integrity="sha256-2XFplPlrFClt0bIdPgpz8H7ojnk10H69xRqd9+uTShA=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="index.css"> 	
 	</head>
 	<body>
 		
 		<div id="page-wrapper">
 			<!-- Header -->
 			<div id="header">
-				<div class="inner name"><a href="#illustration">Liyu(Jade) Lin</a></div>
+				<div class="inner-name"><a href="#illustration">Liyu(Jade) Lin</a></div>
 				<!-- Navigation -->
-<div class="navbar">
-  <div class="dropdown">
-    <button class="dropbtn">Menu 
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="#about">About</a>
-      <a href="#resume">Resumé</a>
-      <a href="#work">Work</a>
-    </div>
-  </div> 
-</div>
-
-			</div>
+        <div class="navbar">
+          <div class="dropdown">
+            <button class="dropbtn">Menu 
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#about">About</a>
+              <a href="#resume">Resumé</a>
+              <a href="#work">Work</a>
+            </div>
+          </div> 
+        </div>
+      </div>
 			<!-- Essentials Illustration -->
-			<div id="illustration"><center><img src="img/banner.png"></center></div>
+			<div class="overlay">
+        <center><img src="img/avatar.jpg" alt="Avatar" class="avatar"><img src="img/programmer.gif" alt="Avatar" class="avatar"></center>
+      </div>
 			<!-- About Me -->
 			<div id="about"><div class="inner">
 				<p>Hello, world! I'm a developer and designer.</p><br/><br/><br/>
@@ -607,11 +51,11 @@ img.icon:hover {
 							&gt; Liyu.GPA<br/>
 							<span class="answer">&nbsp;&nbsp;=&gt; "3.83/4.00"<br/><br/></span>
 							&gt; Liyu.interests<br/>
-							<span class="answer">&nbsp;&nbsp;=&gt; ["Design", "Code", "coffee", "dance", "music", "food"]<br/><br/></span>
+							<span class="answer">&nbsp;&nbsp;=&gt; [ "Code", "Design", "Food", "Coffee", "Dance", "Music"]<br/><br/></span>
 							&gt; Liyu.career.objective<br/>
 							<span class="answer">&nbsp;&nbsp;=&gt; 
-												 Aiming to leverage a proven knowledge of programming, and research & analysis skills, and web design to successfully fill the UX Developer role at your company. Frequently praised as diligent by my peers, I can be relied upon to help your company achieve its goals.<br/>
-							<br/></span>
+												 Aiming to leverage a proven knowledge of programming, and research & analysis skills, and experience of building Web applications to successfully fill the Web Developer role at your company. Frequently praised as diligent by my peers, I can be relied upon to help your company achieve its goals.<br/>
+                        <br/></span>
 							&gt; Liyu.resume<br/>
 							<span class="answer">&nbsp;&nbsp;=&gt; "<a target="_blank" href="Lin_Resume_2021.pdf">Liyu.Resume</a>"<br/><br/></span>
 							&gt; Liyu.github<br/>
@@ -619,7 +63,7 @@ img.icon:hover {
 							&gt; Liyu.blog<br/>
 							<span class="answer">&nbsp;&nbsp;=&gt; "<a target="_blank" href="https://llyu0966.github.io/myblog/">Liyu.blog</a>"<br/><br/></span>
 							&gt; Liyu.email<br/>
-							<span class="answer">&nbsp;&nbsp;=&gt; "<a target="_blank" href="mailto:lliyu.brooklyn@gmail.com">lliyu.brooklyn@gmail.com</a>"</p><br/><br/><br/><br/></span>
+							<span class="answer">&nbsp;&nbsp;=&gt; "<a target="_blank" href="mailto:jadellyu@outlook.com">jadellyu@outlook.com</a>"</p><br/><br/><br/><br/></span>
 						</div>
 					</div>
 				</div>
@@ -632,41 +76,32 @@ img.icon:hover {
 				<p class="section-tagline" style="text-align:left;">Education</p>
 				<!-- Résumé : Education : BC -->
 				<p>
-					<a target="_blank" href="http://www.brooklyn.cuny.edu/web/home.php"><img class="icon" src="img/Brooklyn_College_Seal.svg.png"></a><b>Brooklyn College</b>
-					<span class="right"><i>Expected graduation Dec 2021</i></span><br/><b>Computer Science, B.S.</b>
-					<span class="right"><i>Brooklyn, NY</i></span><br/><p>GPA: 3.86/4.00</p><p>Minor: Mathematics.</p><br/>
+					<a target="_blank" href="http://www.brooklyn.cuny.edu/web/home.php"><img class="icon" src="img/Brooklyn_College_Seal.svg.png"></a>
+          <b>Brooklyn College, City University of New York (CUNY)</b>
+					<span class="right"><i>Brooklyn, NY</i></span><br/><b>BS, Computer Science, Mathematics Minor</b>
+					<span class="right"><i>Expected Dec 2021</i></span><br/><p>GPA: 3.83/4.00</p>
 						Relevant Coursework:<br/>
-						<ul style="list-style:circle;">
-									<li>Data Structure</li>
-									<li>Computer Architecture</li>
-									<li>Math Modeling & Simulation</li>
-									<li>Human-Computer Interaction</li>
-									<li>Discrete Methods in Computer Science</li> 
-																										</ul>
+						<p>Data Structures, Discrete Structures and Algorithms, Database Systems, Operating Systems, Java, C++ Programming, Human-
+              Computer Interaction, Multimedia Programming, Math Modeling & Simulation in R, Numerical Analysis</p>
 <br/>Awards & Honors:<br/>
 						<ul style="list-style:circle;">
-									<li>Dean's List</li>
+									<li>Dean's Honor List</li>
 							                <li>Member of Upsilon Pi Epsilon computing discipline honor society</li>										</ul>
 
 
-					<span class="skill">Java</span><span class="skill">R</span><span class="skill">HTML</span><span class="skill">CSS</span><span class="skill">JavaScript</span><span class="skill">SEO</span><span class="skill">Jekyll</span><span class="skill">Jupyter Notebook</span><span class="skill">Git</span><span class="skill">Photoshop</span>
+					<span class="skill">JavaScript</span><span class="skill">Java</span><span class="skill">HTML</span><span class="skill">CSS</span><span class="skill">C++</span><span class="skill">R</span><span class="skill">Python</span><br>
+          <span class="skill">Git</span><span class="skill">React</span><span class="skill">H2 Database</span><span class="skill">MySQL</span> <span class="skill">Jupyter Notebook</span> <span class="skill">Unix</span> <span class="skill">Linux</span><br>
+          <span class="skill">Figma</span><span class="skill">Wix</span><span class="skill">WordPress</span><span class="skill">SEO</span><span class="skill">Adobe Photoshop</span><span class="skill">Google Analytics</span><span class="skill">Google Search Console</span>
 				</p>
 				<br/>
 				<!-- Résumé : Education : ASA -->
 				<p>
 					<a target="_blank" href="https://www.asa.edu"><img class="icon" src="img/452-4521380_asa-college-logo.png"></a><b>ASA College</b>
-					<span class="right"><i>Jun 2017</i></span><br/>
+					<span class="right"><i>Manhattan, NY</i></span><br/>
 					
-					<span class="right"><i>Manhattan, NY</I></span><b>Accounting, A.S.</b><p>GPA: 3.88/4.00
+					<span class="right"><i>Jun 2017</i></span><b>AS, Accounting</b><p>GPA: 3.88/4.00
 <br/><br/>Relevant Coursework:<br/>
-						<ul style="list-style:circle;">
-									<li>Advanced Bookkeeping</li>
-<li>Principles of Accounting Ⅰ & Ⅱ</li> 
-									<li>Computerized Accounting</li>
-									<li>Principle of Finance</li>
-									<li>Principle of Microeconomics</li> 
-<li>Accounting with Electronic Spreadsheet</li> 
-																										</ul>
+            <p>Advanced Bookkeeping, Principles of Accounting Ⅰ & Ⅱ, Computerized Accounting, Principle of Finance, Principle of Microeconomics, Accounting with Electronic Spreadsheet</p>
 <br/>Certifications:<br/>
 						<ul style="list-style:circle;">
 									<li>Certificate of Completion from The American Institute of Professional Bookkeepers</li>
@@ -683,40 +118,52 @@ img.icon:hover {
 				<!-- Résumé : Work Experience -->
 				<p class="section-tagline" style="text-align:left;">Work Experience</p>
 
-				<!-- Résumé : Work Experience : BTBS -->
+				<!-- Résumé : Work Experience : CUNY Tech Prep -->
 				<p>
-					<a target="_blank" href="https://electricalandplumbingschool.com"><img class="icon" src="img/Berk-Trade.png"></a><b>Berk Trade and Business School</b>
-					<span class="right"><i>Summer 2018</i></span><br/>
-					<b>Office Assistant</b>
-					<span class="right"><i>LIC, NY</I></span><br/><br/>
+					<a target="_blank" href="https://cunytechprep.nyc/"><img class="icon" src="img/CTP.png"></a><b>CUNY Tech Prep</b>
+					<span class="right"><i>New York, NY</i></span><br/>
+					<b>Fellow, Software Development</b>
+					<span class="right"><i>June 2021 - Present</I></span><br/><br/>
 						<ul style="list-style:circle;">
-									<li>Filed and retrieved corporate documents, records, and reports.</li>
-<li>Opened, sorted, and distributed incoming correspondence, including faxes and email.</li> 
-									<li>Answered phone calls and direct calls to appropriate parties or took messages.</li>
-									<li>Performed general office duties, such as performing basic bookkeeping work. </li>
+									<li>Learning in-demand technologies like React, Node + Express, and PostgreSQL as well as industry best practices for design, implementation, and deployment such as MVC, version control with Git/GitHub, agile & Scrum with Trello and Slack, test driven development, and CI/CD</li> 
+							
 																										</ul><br/>
-					<span class="skill">QuickBooks</span><span class="skill">Word</span><span class="skill">Outlook</span><span class="skill">Excel</span>				<br/><br/>
+					<span class="skill">React</span><span class="skill">JavaScript</span><span class="skill">Node.js</span><span class="skill">Express</span><span class="skill">PostgreSQL</span><span class="skill">Git/Github</span><span class="skill">Agile Software Development</span><span class="skill">CI/CD</span>				<br/><br/>
+				<!-- Résumé : Work Experience : EasyFind Co. -->
+				<p>
+					<a target="_blank" href="https://easyfind8.com/"><img class="icon" src="img/EasyFind.jpg"></a><b>EasyFind Co.</b>
+					<span class="right"><i>Arcadia, California</i></span><br/>
+					<b>Web Developer Intern</b>
+					<span class="right"><i>Sep 2020 - Dec 2020</I></span><br/><br/>
+						<ul style="list-style:circle;">
+									<li>Designed, programmed, developed, tested, and deployed the company website.</li> 
+									<li>Established estimates and timelines for specific applications/projects and assumed responsibility for results.</li>
+									<li>Utilized object-oriented principles and design patterns to carry out web application tasks.</li>
+									<li>Documented and version all work using Git version software.</li>
+						</ul><br/>
+					<span class="skill">JavaScript</span><span class="skill">HTML</span><span class="skill">CSS</span><span class="skill">WordPress</span><span class="skill">Git/Github</span><span class="skill">Agile Software Development</span><span class="skill">Test Driven Development</span>				<br/><br/>
 				<!-- Résumé : Work Experience : Adier -->
 				<p>
 					<a target="_blank" href="https://www.adiermedia.com"><img class="icon" src="img/adier.png"></a><b>Adier Corporation</b>
-					<span class="right"><i>2017-2018</I></span><br/>
-					<b>Web Developer</b>
-					<span class="right"><i>NY, NY</I></span><br/><br/>
+					<span class="right"><i>New York, NY</I></span><br/>
+					<b>Web Developer Intern</b>
+					<span class="right"><i>2017 - 2018</I></span><br/><br/>
 						<ul style="list-style:circle;">
-									<li>Designed, built, or maintained web sites, using authoring or scripting languages, content creation tools, management tools, and digital media.</li>
-<li>Analyzed user needs to determine technical requirements.</li> 
+									<li>Designed, built, and maintained Wix and Wordpress web sites which reached 100% customer satisfaction, according to customer surveys, using authoring or scripting languages, content creation tools, and digital media.
+									</li>
+									<li>Helped clients increase visibility and rank higher in search engine results.</li> 
 									
-									<li>Developed title tag, description of meta tags and highlighted and added relevant links to site. </li>
+									<li>Tracked Search Engine Optimization (SEO) and keyword rankings for clients’ websites using Google Analytics and Google Search Console and  reported results to management.</li>
 																										</ul><br/>
-					<span class="skill">HTML</span><span class="skill">CSS</span><span class="skill">JavaScript</span><span class="skill">SEO</span><span class="skill">PowerPoint</span>
+					<span class="skill">HTML</span><span class="skill">CSS</span><span class="skill">JavaScript</span><span class="skill">SEO</span><span class="skill">Google Search Console</span><span class="skill">PowerPoint</span>
 				</p>
 				<br/>
 				<!-- Résumé : Work Experience : Accounting -->
 				<p>
 					<img class="icon" src="img/images.png"><b>United Reliance Group Inc.</b>
-					<span class="right"><i>Feb 2017 - May 2017</I></span><br/>
+					<span class="right"><i>New York, NY</i></span><br/>
 					<b>Bookkeeper Intern</b>
-					<span class="right"><i>NY, NY</I></span><br/><br/>
+					<span class="right"><i>Feb 2017 - May 2017</I></span><br/><br/>
 						<ul style="list-style:circle;">
 									<li>Operated computers programmed with accounting software to record, store, and analyze information.</li>
 <li>Received, recorded, and banked cash, checks, and vouchers</li> 
@@ -726,43 +173,129 @@ img.icon:hover {
 					<span class="skill">Spreadsheet</span><span class="skill">QuickBooks</span>	</p>
 				<br/>
 								</p>
-				<br/><br/><br/><br/>
+				<br/>
 			</div></div>
 			<!-- Portfolio -->
-			<div id="work"><div class="inner">
-				<p class="tagline">Work + Fun</p>
-		
-				
-				<div class="row">
-					<div class="portfolio-thumb">
-						<a target="_blank"><img src="img/NYC-Parks.png"></a>
-						<p class="description"><b>NYC Parks</b>&nbsp;&nbsp; Built with a team as a final project for HCI Lab: Human Computer Interaction. NYC Parks app, a frontend project, designed for public good to let people filter parks based on certain criteria, such as park facilities, distances, and restrooms, etc.</p>
-					</div>
-					
-					<div class="portfolio-thumb">
-						<a target="_blank" href="https://www.bronxcapitala.com"><img src="img/projects.png"></a>
-						<p class="description"><b>Adier Corporation</b>&nbsp;&nbsp; Designing websites with a business minded approach and programming in front-end. Additional experience in SEO and Social Media campaigns, working directly with clients to build lasting online identities.</p>
-					</div>					
-				</div>
-				
-				<div class="row">
-					<div class="portfolio-thumb">
-						<a target="_blank" href="https://llyu0966.github.io/find-my-classmates/main.html"><img src="img/Find-My-Classmates.png"></a>
-						<p class="description"><b>Find My Classmates</b>&nbsp;&nbsp; Website Project for Human-Computer Interaction.The website allows users to upload school information about themselves with the goal of finding their classmates who lost the contact with.</p>
-					</div>
-					
-					<div class="portfolio-thumb">
-						<a target="_blank" href="https://llyu0966.github.io/myblog/"><img src="img/My-Blog.png"></a>
-						<p class="description"><b>Liyu's Blog</b>&nbsp;&nbsp; Built a gem-based responsive website for blogging using Jekyll. It is a place where I post at least one post biweekly on something I've learned.</p>
-					</div>					
-				</div>
-			</div></div>
+
+<section class="projects">
+    <div class="container">
+        <div class="text-center mb-5">
+			<br/>
+			<p class="tagline">Work + Fun</p>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-lg-3 mb-1-9">
+                <div class="card-wrapper">
+                    <div class="card-img"><img src="img/Tranquility.png" style="width:380px;height:280px;" alt="..."></div>
+                    <div class="card-body">
+                        <div>
+                            <h3 class="h5">Tranquility</h3>
+                            <p class="display-30">Tranquility is designed to give users the ability to use our application and get resources that would help the user find the solution. The Inspiration behind Tranquility is the fact that a lot of applications are designed to help people with mental health, but tend to fail to connect with individuals. Thus, there needs to be a way to give resources to people in need and establish a connection. Furthermore, these applications are not the easiest to use for people with mental disabilities; therefore, there was a need to simplify the questions in order to get to the result.</p>
+                            <a target="_blank" href="https://devpost.com/software/tranquility-n1aiyw" class="read-more">view project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-3 mb-1-9">
+                <div class="card-wrapper">
+                    <div class="card-img"><img src="img/NYC-Parks.png" style="width:380px;height:280px;" alt="..."></div>
+                    <div class="card-body">
+                        <div>
+                            <h3 class="h5">NYC Parks</h3>
+                            <p class="display-30">Built with a team of 3 as a final project for HCI Lab: Human Computer Interaction. NYC Parks app, a frontend project, designed for public good to let people filter parks based on certain criteria, such as park facilities, distances, and restrooms, etc.</p>
+                            <a target="_blank" href="https://llyu0966.github.io/nycparks/build/index.html#/" class="read-more">view project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-3 mb-1-9">
+                <div class="card-wrapper">
+                    <div class="card-img"><video  width="280" autoplay muted controls loop>
+						<source src="img/video0.mp4" type="video/mp4">
+						Your browser does not support the video tag.
+					  </video></div>
+                    <div class="card-body">
+                        <div>
+                            <h3 class="h5">Gaia</h3>
+                            <p class="display-30">Gaia App, will help individuals calculating their carbon footprint consumption, offers a personalised recommendation on the "quick wins" action that they can do based on their inputs, and offer a donate feature for them that will be used to fund environmental and conservation acts. With this, users will be fully aware of their significant involvement in this issue and have the chance to act straight away to offset the negative externalities that they have caused.</p>
+                            <a target="_blank" href="https://devpost.com/software/gaia-zo4csp" class="read-more">view project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-3 mb-1-9">
+                <div class="card-wrapper">
+                    <div class="card-img"><video  width="380" autoplay muted controls loop>
+						<source src="img/bobojump.mp4" type="video/mp4">
+						Your browser does not support the video tag.
+					  </video></div>
+                    <div class="card-body">
+                        <div>
+                            <h3 class="h5">Bobo Jump</h3>
+                            <p class="display-30">Bobo Jump, a web-based game application utilizing Unity 2D.</p>
+                            <a target="_blank" href="https://llyu0966.github.io/bobo-jump/" class="read-more">view project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-3 mb-1-9">
+                <div class="card-wrapper">
+                    <div class="card-img"><img src="img/banner.png" style="width:380px;height:280px;" alt="..."></div>
+                    <div class="card-body">
+                        <div>
+                            <h3 class="h5">Multimedia Programming Portfolio</h3>
+                            <p class="display-30">Cartoon, Animation, Data Visualization, Voice Recognition, Game, Chart, Notebook, Audio, Video</p>
+                            <a target="_blank" href="https://llyu0966.github.io/" class="read-more">view project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-3 mb-1-9">
+                <div class="card-wrapper">
+                    <div class="card-img"><img src="img/blog.png" style="width:380px;height:280px;" alt="..."></div>
+                    <div class="card-body">
+                        <div>
+                            <h3 class="h5">A Techno-geek's Blog</h3>
+                            <p class="display-30">Built a gem-based responsive website for blogging using Jekyll. It is a place where I post something I've learned.</p>
+                            <a target="_blank" href="https://llyu0966.github.io/myblog/" class="read-more">view project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-3 mb-1-9">
+                <div class="card-wrapper">
+                    <div class="card-img"><img src="img/Find-My-Classmates.png" style="width:380px;height:280px;" alt="..."></div>
+                    <div class="card-body">
+                        <div>
+                            <h3 class="h5">Find MyClassmate</h3>
+                            <p class="display-30">The website allows users to upload school information about themselves which the goal of finding their classmates who lost the contact with. Through the search, users also are able to find the memories of youth.</p>
+                            <a target="_blank" href="https://llyu0966.github.io/find-my-classmates/main.html" class="read-more">view project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+                <div class="card-wrapper">
+                    <div class="card-img"><img src="img/zip-search-2.png" style="width:380px;height:380px;" alt="..."></div>
+                    <div class="card-body">
+                        <div>
+                            <h3 class="h5">Zip Code Search App</h3>
+                            <p class="display-30">We will use the user input to search the ctp-zip-api. If the zip code is valid the API will respond with an object for each city.</p>
+                            <a target="_blank" href="https://github.com/llyu0966/zip-code-react-lab" class="read-more">view project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 			<div  id ="footer"><div class="inner">
-				© 2020 Liyu Lin. 
+				© 2021 Liyu Lin 
 				<span class="right">
-					<a target="_blank" href="mailto:lliyu.brooklyn@gmail.com">Email</a>&nbsp;//&nbsp;
-					<a target="_blank" href="http://www.linkedin.com/">LinkedIn</a>&nbsp;//&nbsp;
-					<a target="_blank" href="http://www.twitter.com/">Twitter</a>
+					<a target="_blank" href="mailto:jadellyu@outlook.com">Email</a>&nbsp;//&nbsp;
+					<a target="_blank" href="https://www.linkedin.com/in/liyu-lin/">LinkedIn</a>&nbsp;//&nbsp;
+					<a target="_blank" href="https://twitter.com/JadeLin83041747">Twitter</a>&nbsp;//&nbsp;
+          <a target="_blank" href="https://www.facebook.com/profile.php?id=100018624785102">Facebook</a>
 				</span>
 			</div></div>
 </body>
