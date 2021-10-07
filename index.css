@@ -19,8 +19,8 @@ html {
  }
   
  .avatar {
-     width: 160px;
-     height: 200px;
+     width: 200px;
+     height: 184px;
      border-radius: 50%;
      padding-right: 10px;
  }
@@ -391,7 +391,10 @@ html {
       width: 55%;
       padding-right: 10px;
     }
-  
+    
+    .overlay {
+      padding-top: 100px;
+    }
     
   }
   
